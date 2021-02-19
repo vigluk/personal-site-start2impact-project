@@ -234,6 +234,10 @@ padding: 0;
 .footer__link:visited {
     color: darkcyan;
 }
+.footer__link:hover,
+.footer__link:active {
+    color: lightblue;
+}
 
 /*  MEDIA QUERIES  */
 
@@ -294,6 +298,12 @@ padding: 0;
 .contacts__paragraph {
     font-size: 1.2rem;
 }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1150px) {
+    .soft-container {
+        width: 40%;
+    }
 }
 
 
